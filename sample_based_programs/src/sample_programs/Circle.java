@@ -1,6 +1,6 @@
 package sample_programs;
 import java.util.*;
-public class Circle{
+public class Q11_circle{
     public static final double PI = 3.14159;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -14,3 +14,4 @@ public class Circle{
         sc.close();
     }
 }
+
