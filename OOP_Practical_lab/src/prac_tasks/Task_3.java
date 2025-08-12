@@ -33,7 +33,7 @@ public class Task_3 {
       for (String word : words) {
           System.out.print(word + " ");
       }
-      System.out.println("\nReversed array:");
+      System.out.println("\nReverse array:");
       for (int i = words.length - 1; i >= 0; i--) {
           System.out.print(words[i] + " ");
       }
@@ -44,4 +44,5 @@ public class Task_3 {
       System.out.println("\nConcatenated String: " + sb.toString().trim());
       sc.close();
   }
+
 }
